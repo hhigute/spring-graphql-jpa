@@ -1,0 +1,17 @@
+type Bank {
+	code: String!
+	name: String!
+	contactName: String!
+	contactPhone: String!
+}
+
+
+extend type Query {
+	findAllBanks: [Bank]!
+	countBanks: Long!
+}
+
+extend type Mutation {
+	createBank(code: String!, contactName: String!, contactPhone: String!, name: String!): Bank!
+	updateBank(code: String!, contactName: String!, contactPhone: String!, name: String!): Bank!
+}

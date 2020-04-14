@@ -1,0 +1,15 @@
+type Customer {
+	document: String!
+	name: String!
+	phone: String!
+	banks: [Bank]
+}
+
+type Query {
+	findAllCustomers: [Customer]!
+	countCustomers: Long!
+}
+
+type Mutation {
+	createCustomer(document: String!, name: String!, phone: String!): Customer!
+}
