@@ -140,7 +140,7 @@ Query example
 
 GraphiQL interface
 
-![./docs/Graphiql-ui.png](C:\workspaces\eclipse-workspace\spring-graphql-jpa\docs\Graphiql-ui.png)
+![](./docs/Graphiql-ui.png)
 
 GraphQL endpoint
 
